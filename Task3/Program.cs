@@ -61,19 +61,6 @@ void minArray(int[,] array)
    
 }
 
-// Фун-я вывода массива
-void PrintNewArray(int[,] array)
-{
-    for(int i =0; i<array.GetLength(0);i++)
-    {
-        for(int j=0;j<array.GetLength(1);j++)
-        {
-            Console.Write(array[i, j]+"\t");
-        }
-         Console.WriteLine();
-    }
-}
-
 Console.Write("Введите количество строк: ");
 int line = int.Parse(Console.ReadLine());
 Console.Write("Введите количество столбцов: ");
